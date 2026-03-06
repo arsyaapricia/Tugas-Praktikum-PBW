@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <title>
+            Sistem java script sederhana
+        </title>
+        <link rel="stylesheet" href="style.css" >
+    </head>
+        <body>
+            <h2>sistem cek huruf mutu nilai</h2>
+
+            <form>
+                NIM<br> 
+                <input type="text" id="nim"><br>
+
+                NILAI<br> 
+                <input type="number" id="nilai">
+                <br><br>
+                <button type="button" onclick="cekNilai()">Cek Nilai</button>
+            </form>
+
+                <p id="hasil"></p>
+
+            <script>
+                function cekNilai() {
+
+                    var nim = document.getElementById("nim").value;
+                    var nilai = document.getElementById("nilai").value;
+                    var huruf;
+
+                    if (nilai < 0 || nilai > 100) {
+                        huruf = "Nilai tidak valid!";
+                    }
+                    else if (nilai >= 80){
+                        huruf = "A";
+                    }
+                    else if (nilai >= 70){
+                        huruf = "B";
+                    }
+                    else if (nilai >= 60){
+                        huruf = "C";
+                    }
+                    else if (nilai >= 50){
+                        huruf = "D";
+                    }
+                    else {
+                        huruf = "E";
+                    }
+                    document.getElementById("hasil").innerHTML = "NIM: " + nim + "<br>Huruf Mutu: " + huruf;
+                }
+            </script>
+        </body>
+    
+</html>
