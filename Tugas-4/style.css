@@ -1,0 +1,26 @@
+body{
+    font-family: "Courier New", monospace;
+    
+}
+
+.box{
+    background-color: snow;
+    width: 600px;
+    border: 3px solid black;
+    padding: 20px;
+    font-size: 15px;
+    
+}
+
+h1{
+    text-align: center;
+
+}
+
+hr{
+    border: 1px dashed black;
+}
+.total{
+    font-weight: bold;
+    font-size: 20px;
+}
