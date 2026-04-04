@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2 {
+    font-feature-settings: "smcp", "zero";
+    font-size: 30px;
+}
+form {
+    width: 300px;
+    border: 1.5px solid black;
+    padding: 20px;
+    font-size: 15px;  
+    background-color: teal;
+    color: whitesmoke;
+}
+.kotak-luaran {
+    width: 300px;
+    border: 1.5px solid black;
+    padding: 20px;
+    font-size: 15px;
+    margin-top: 30px;
+    background-color: teal;
+    color: whitesmoke;
+}
+.judul-luaran {
+    border-bottom: 1px solid black; 
+    padding: 10px;
+}
+
+.isi-luaran {
+    padding: 10px;
+    line-height: 1.8;
+}
