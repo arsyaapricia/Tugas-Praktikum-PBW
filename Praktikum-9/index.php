@@ -8,6 +8,10 @@
     body {
         font-family: Arial, Helvetica, sans-serif;
         background-color: darkseagreen;
+        border: 2px solid black;
+        padding: 25px;
+        height: auto;
+        width: 50%;
     }
 </style>
 </head>
