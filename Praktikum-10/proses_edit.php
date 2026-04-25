@@ -5,7 +5,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $id      = $_POST['id'];
     $judul   = $_POST['judul'];
     $penulis = $_POST['penulis'];
-    $tahun   = $_POST['tahun']; // ✅ sesuai form
+    $tahun   = $_POST['tahun']; 
     $harga   = $_POST['harga'];
     $stok    = $_POST['stok'];
 
