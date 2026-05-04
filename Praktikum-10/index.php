@@ -9,12 +9,16 @@
 <body>
 
 <div class="page-header">
-    <h1>DATA BUKU</h1>
+    <h1>DATA BUKU TERDATA</h1>
     <div><a href="tambah.php">Tambah Buku</a>
         <p>Masukkan data buku untuk ditambahkan ke tabel buku</p></div>
     </div>
 </div>
 <br><br>
+
+<div class="page-logout">
+    <a href="logout.php" class="btn">Logout</a>
+</div>
 
 <table border="1" cellpadding="5">
     <tr>
@@ -49,6 +53,7 @@ while ($d = mysqli_fetch_array($data)) {
 </tr>
 
 <?php } ?>
+
 </table>
 
 </body>

@@ -17,7 +17,6 @@ table {
     justify-content: center;
     text-align: center;
     margin: 20px auto; 
-
 }
 
 table th, table td {
@@ -26,16 +25,23 @@ table th, table td {
     text-align: center;
 }
 
+h2 {
+    padding: 1.5px;
+    margin-top: 3px;
+    background-color: darkblue;
+    color: white;
+}
 a {
     text-decoration: none;
-    color: white;
+    color: black;
     padding: 3px 10px;
     border-radius: 5px;
+    background-color: skyblue;
 }
 
 button {
     padding: 8px 12px;
-    background: cornflowerblue;
-    color: white;
+    background: skyblue;
     border-radius: 5px;
 }
+
