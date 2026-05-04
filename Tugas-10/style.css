@@ -8,8 +8,8 @@ body {
     text-align: center;
     padding: 30px;
     border-top: 1px solid;
-    margin-top: 3px;
-    background-color: darkblue;
+    margin-top: 10px;
+    background-color: hotpink;
     color: white;
 }
 
@@ -29,16 +29,22 @@ table th, table td {
     text-align: center;
 }
 
+h2 {
+    padding: 1.5px;
+    margin-top: 10px;
+    background-color: hotpink;
+    color: white;
+}
 a {
     text-decoration: none;
-    color: white;
-    background-color: cornflowerblue;
+    background-color: violet;
     padding: 3px 10px;
     border-radius: 5px;
+    color: black;
 }
 
 button {
-    background: cornflowerblue;
-    color: white;
+    background: violet;
+    color: black;
     border-radius: 5px;
 }

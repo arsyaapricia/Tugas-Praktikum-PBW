@@ -8,15 +8,19 @@
 </head>
 <body>
 <div class="page-header">
-<h2>Data Mahasiswa</h2>
-
+<h1>Data Mahasiswa</h1>
 <form method="GET">
-    <input type="text" name="cari" placeholder="Cari nama...">
+    <input type="text" name="cari" placeholder="Cari nama">
     <button type="submit">Cari</button>
+    <br><br><a href="tambah.php">Tambah Data</a>
 </form>
 </div>
-<br><a href="tambah.php">Tambah Data</a>
+
 <br><br>
+
+<div class="page-logout">
+    <a href="logout.php" class="btn">Logout</a>
+</div>
 
 <?php
 if (isset($_GET['pesan'])) {
@@ -24,7 +28,7 @@ if (isset($_GET['pesan'])) {
 }
 ?>
 
-<table border="1" cellpadding="5">>
+<table border="1" cellpadding="5">
 <tr>
     <th>No</th>
     <th>Nama</th>
