@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Apr 27, 2026 at 11:11 AM
+-- Generation Time: May 04, 2026 at 02:05 PM
 -- Server version: 8.0.30
 -- PHP Version: 8.1.10
 
@@ -44,6 +44,25 @@ INSERT INTO `mahasiswa` (`id`, `nama`, `nim`, `prodi`, `email`, `umur`) VALUES
 (1, 'Arsya Apricia Purnomo', '2410631170012', 'Informatika', 'arsya@gmail.com', 20),
 (2, 'Mustikasari Yahya', '2410631170041', 'Informatika', 'mustika@email.com', 20);
 
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `users`
+--
+
+CREATE TABLE `users` (
+  `id` int NOT NULL,
+  `nama` varchar(50) NOT NULL,
+  `katasandi` int NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+--
+-- Dumping data for table `users`
+--
+
+INSERT INTO `users` (`id`, `nama`, `katasandi`) VALUES
+(111, 'cya', 888);
+
 --
 -- Indexes for dumped tables
 --
@@ -52,6 +71,12 @@ INSERT INTO `mahasiswa` (`id`, `nama`, `nim`, `prodi`, `email`, `umur`) VALUES
 -- Indexes for table `mahasiswa`
 --
 ALTER TABLE `mahasiswa`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `users`
+--
+ALTER TABLE `users`
   ADD PRIMARY KEY (`id`);
 
 --
